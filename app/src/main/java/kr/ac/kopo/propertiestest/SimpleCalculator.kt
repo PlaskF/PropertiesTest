@@ -44,5 +44,23 @@ class SimpleCalculator : AppCompatActivity() {
             result = num1 + num2
             textResult.text = "계산 결과: " + result
         }
+        btnMinus.setOnClickListener {
+            val num1 = edit1.text.toString().toInt()
+            val num2 = edit2.text.toString().toInt()
+            result = num1 - num2
+            textResult.text = "계산 결과: " + result
+        }
+        btnMultiply.setOnClickListener {
+            val num1 = edit1.text.toString().toInt()
+            val num2 = edit2.text.toString().toInt()
+            result = num1 * num2
+            textResult.text = "계산 결과: " + result
+        }
+        btnDivide.setOnClickListener {
+            val num1 = edit1.text.toString().toInt()
+            val num2 = edit2.text.toString().toInt()
+            result = num1 / num2
+            textResult.text = "계산 결과: " + result
+        }
     }
 }
