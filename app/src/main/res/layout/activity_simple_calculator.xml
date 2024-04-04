@@ -15,7 +15,8 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
+        android:inputType="numberDecimal"
         />
     <EditText
         android:id="@+id/edit2"
@@ -24,7 +25,7 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
         />
 
     <Button
@@ -34,7 +35,7 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
         android:text="@string/btn01"
         android:textColor="@color/black"
         android:backgroundTint="@color/gray"
@@ -46,7 +47,7 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
         android:text="@string/btn02"
         android:textColor="@color/black"
         android:backgroundTint="@color/gray"
@@ -58,7 +59,7 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
         android:text="@string/btn03"
         android:textColor="@color/black"
         android:backgroundTint="@color/gray"
@@ -70,8 +71,20 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
         android:text="@string/btn04"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/gray"
+        />
+    <Button
+        android:id="@+id/btnRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginLarge"
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:textSize="25sp"
+        android:text="@string/btn05"
         android:textColor="@color/black"
         android:backgroundTint="@color/gray"
         />
@@ -84,8 +97,9 @@
         android:layout_marginTop="@dimen/marginLarge"
         android:layout_marginLeft="@dimen/marginLarge"
         android:layout_marginRight="@dimen/marginLarge"
-        android:textSize="@dimen/textSizeLarge"
+        android:textSize="25sp"
         android:text="@string/str01"
         android:textColor="@color/red"
         />
+
 </LinearLayout>
